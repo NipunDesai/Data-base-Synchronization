@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Sync Framework Basic Example.exe" version="1.0.0.0" publicKeyToken="8b5078aa4e12c54e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Sync Framework Basic Example" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Sync Framework Basic Example.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Synchronization" version="1.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Synchronization" version="2.1.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Synchronization.Data" version="3.1.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Synchronization.Data.SqlServer" version="3.1.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Synchronization.Files" version="1.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Synchronization.MetadataStorage" version="1.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sync Framework Basic Example.exe" size="6144">
+      <assemblyIdentity name="Sync Framework Basic Example" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>BlW3n7P6BgAsQQyXK0cj4KSdmtk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Sync Framework Basic Example.exe.config" size="117">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>a3Forh+i+nzyaONrpGeK7Sudu10=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=NIPUN\nipun" issuerKeyHash="6f359b2aa4090a26ec76f677a56011d77666d7f5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Fhq/epsC5y3XHQmXn1EatSLTIIA=</DigestValue></Reference></SignedInfo><SignatureValue>D6Qrqbpmt49ouDxfs7IVijG/RBR2HgKmlTc79Sw5QNH2/wKREzV7syq7tNIxen+K7KsEmnAY+x/S4wqiLlu3y08QA7dXe2ThL0brKG8fCj6O7EPaYSH6rbNffJbLYL7Ynoj5p2RJIDW2EAHPQaIv3A1TfQnVWlFbXhZLmizUf3E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tBahDtSq4Y5jh+tSBcik4fleirwWF32mfDkfe8OIvSb09Fi0P25OulDgvisrTLW3QAh+yEE/QYOkQu8WY1DzBlAg67enQPuO7Dy8QvxN9CDbxnkwoyJxVxqnXwkW6KJTjPf+Yvb7aqjgF1AWdxSzVaXq3OklQ4wvUdbRiLxp95k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8020d322b51a519f97091dd72de7029b7abf1a16" Description="" Url=""><as:assemblyIdentity name="Sync Framework Basic Example.exe" version="1.0.0.0" publicKeyToken="8b5078aa4e12c54e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NIPUN\nipun</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>QbKzfkIyinI5i21r0AYd9tuEpmk=</DigestValue></Reference></SignedInfo><SignatureValue>mK7UhOWnFDnfxnLAHfVjb3E4Fn/WpG4Fizpf8t1rxUeQik4hgk3t0kycKA6PkESLl6Xbi13D5gui2T2s5MplJRvh9ckSjGo4j8BZXMv28hlGirZFxOU6XhH8hPUNYBca1wgRDfiympT/C04i7702rmFTV796ZA2jIu7yJaCnCMg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tBahDtSq4Y5jh+tSBcik4fleirwWF32mfDkfe8OIvSb09Fi0P25OulDgvisrTLW3QAh+yEE/QYOkQu8WY1DzBlAg67enQPuO7Dy8QvxN9CDbxnkwoyJxVxqnXwkW6KJTjPf+Yvb7aqjgF1AWdxSzVaXq3OklQ4wvUdbRiLxp95k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQbhB0CSOqGIRPODn+AzTODjANBgkqhkiG9w0BAQUFADAhMR8wHQYDVQQDHhYATgBJAFAAVQBOAFwAbgBpAHAAdQBuMB4XDTE1MDcxNDA5MjU0NloXDTE2MDcxMzE1MjU0NlowITEfMB0GA1UEAx4WAE4ASQBQAFUATgBcAG4AaQBwAHUAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAtBahDtSq4Y5jh+tSBcik4fleirwWF32mfDkfe8OIvSb09Fi0P25OulDgvisrTLW3QAh+yEE/QYOkQu8WY1DzBlAg67enQPuO7Dy8QvxN9CDbxnkwoyJxVxqnXwkW6KJTjPf+Yvb7aqjgF1AWdxSzVaXq3OklQ4wvUdbRiLxp95kCAwEAATANBgkqhkiG9w0BAQUFAAOBgQBHSZQ5dTIw6u0JUKUxklNXcbrkm54dHRy8NOGf1hWRw+ubUq6rVLIamuwsM+sxCq7GJ4jLrkomfBnXbf9x/qS8qbpeK8GM1cEb3b+TY+wcYl2TftrlvjF9yAqtc4RyiwGbQiD9b/v0fmkypUVu2ovxyCg2mwWckFctfeJ0i719lQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

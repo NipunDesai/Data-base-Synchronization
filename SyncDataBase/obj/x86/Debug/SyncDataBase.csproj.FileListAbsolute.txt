@@ -1,0 +1,10 @@
+C:\Users\nipun.PROMACT\Downloads\Sync Framework Basic Example\Sync Framework Basic Example\Sync Framework Basic Example\obj\x86\Debug\SyncDataBase.csprojResolveAssemblyReference.cache
+C:\Users\nipun.PROMACT\Downloads\Sync Framework Basic Example\Sync Framework Basic Example\Sync Framework Basic Example\obj\x86\Debug\Sync Framework Basic Example.exe
+C:\Users\nipun.PROMACT\Downloads\Sync Framework Basic Example\Sync Framework Basic Example\Sync Framework Basic Example\obj\x86\Debug\Sync Framework Basic Example.pdb
+C:\Users\nipun.PROMACT\Downloads\Sync Framework Basic Example\Sync Framework Basic Example\Sync Framework Basic Example\bin\Debug\Sync Framework Basic Example.exe.config
+C:\Users\nipun.PROMACT\Downloads\Sync Framework Basic Example\Sync Framework Basic Example\Sync Framework Basic Example\bin\Debug\Sync Framework Basic Example.exe
+C:\Users\nipun.PROMACT\Downloads\Sync Framework Basic Example\Sync Framework Basic Example\Sync Framework Basic Example\bin\Debug\Sync Framework Basic Example.pdb
+C:\Users\nipun.PROMACT\Downloads\Sync Framework Basic Example\Sync Framework Basic Example\Sync Framework Basic Example\bin\Debug\Sync Framework Basic Example.exe.manifest
+C:\Users\nipun.PROMACT\Downloads\Sync Framework Basic Example\Sync Framework Basic Example\Sync Framework Basic Example\bin\Debug\Sync Framework Basic Example.application
+C:\Users\nipun.PROMACT\Downloads\Sync Framework Basic Example\Sync Framework Basic Example\Sync Framework Basic Example\obj\x86\Debug\Sync Framework Basic Example.exe.manifest
+C:\Users\nipun.PROMACT\Downloads\Sync Framework Basic Example\Sync Framework Basic Example\Sync Framework Basic Example\obj\x86\Debug\Sync Framework Basic Example.application
